@@ -1,0 +1,88 @@
+*{box-sizing: border-box;}
+
+/* This is objective 6 which creates a responsice design*/
+@media all and (max-width: 600px) {
+    body {
+        background-color: plum;
+        font-size: larger;
+    }
+}
+@media all and (max-width: 480px) {
+    body { padding: 50px;}
+    
+}
+
+.home-section {
+    padding: 10px;
+    width: 400px;
+    border: 10px;
+    margin: 20px;
+}
+
+/* This is objective 7 which styles the navigtion menu */
+.menu {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu-item {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    text-decoration: underline;
+    color: blueviolet;
+}
+
+/* This is objective 2 and changes the color and design of the header and paragraph */
+.main-header {
+    color: blueviolet;
+}
+
+.paragraph {
+    color: teal;
+    margin: 10px;
+    padding: 20px;
+}
+
+.link {
+    color: hotpink;
+    font-size: larger;
+    text-decoration: none;
+}
+
+/* This is objective four and styles the about me section */
+.about-me {
+    background-color: aquamarine;
+}
+
+/* This is objective five and styles the contact form */
+.list-item-container {
+    margin: 12px;
+}
+
+.list-item {
+    padding: 36px;
+    margin: 12px;
+    border: 2px solid black;
+}
+
+.form-fields {
+    padding: 20px;
+    display: block;
+}
+
+.form-fields:focus {
+    border: solid 1px green;
+    background-color: hotpink; /* Changes border color on input hover */
+  }
+
+.footer-section {
+    background-color: aqua;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
