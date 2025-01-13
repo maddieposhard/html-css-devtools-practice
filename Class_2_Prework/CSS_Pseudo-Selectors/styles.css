@@ -1,0 +1,30 @@
+button {
+    background-color: teal;
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 10px;
+    transition: transform 0.3s ease, background-color 0.3s ease;  
+}
+
+button:hover {
+    background-color: hotpink;
+}
+
+button:last-of-type:hover {
+    background-color: green;
+    transform: scale(1.1);
+}
+
+input {
+    border: 2px solid antiquewhite;
+    padding: 10px;
+    font-size: 14px;
+}
+
+input:focus {  
+    border-color: hotpink; 
+    outline: none;  
+    background-color: lightblue;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);  
+}  
