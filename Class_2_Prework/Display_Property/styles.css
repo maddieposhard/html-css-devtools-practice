@@ -1,0 +1,23 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.box {
+  padding: 10px;
+  margin: 10px;
+  background-color: lightblue;
+  border: 1px solid blue;
+  display: inline-block;
+  width: 100px; /* Adding a fixed width for better visualization */
+}
+
+.box1 {
+    display: block;
+}
+
+.box3 {
+    display: inline;
+}
+
+/* Reflection questions: 1. Each box takes up its own line. 2. Inline makes each block stay on the same line and only take up as much space as the element requires, inline block has everything on the same line in its own block container that allows for more room than the element requires. 3. I think I'd use inline block when styling a page if I wanted my elements to stretch evenly across the top of the page even if they were different sizes.

@@ -1,0 +1,49 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: lightgray;
+    margin: 20px auto;
+    border: 1px solid black;
+  }
+  
+  .box {
+    padding: 10px;
+    background-color: lightblue;
+    border: 1px solid blue;
+  }
+  
+  .box1 {
+    position: static; /* Default value */
+  }
+  
+  .box2 {
+    position: relative;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .box3 {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+  }
+
+  .box4 {
+    position: sticky;
+    top: 0;
+    background-color: yellow;
+  }
+
+.lorem_text {
+    font-size: xx-large;
+}
+
+/* Reflection Questions: 1. If there is no ancestor, the element is positioned relative to the initial containing block. 2. Fixed means the element does not move when the page is scrolled, like how box three remains in the same viewing position at the top right as you scroll down the page. Sticky means the elements position is fixed at times, depending on where the user scrolls. Like how box 4 moves as you begin to scroll down the page, but then remains fixed at the top of the page. 3. I'm not 100% sure, but I imagine you would use relative positioning if you wanted to layer elements when styling.
