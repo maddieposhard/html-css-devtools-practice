@@ -21,7 +21,7 @@ body {
   }
   
   .box1 {
-    position: static; /* Default value */
+    position: static;
   }
   
   .box2 {
